@@ -1,0 +1,7 @@
+Phantom Mochachino runs in the browser - in the PhantomJS browser.
+
+The interface was browserified from src using browserify and the following command:
+
+browserify src/mochachino-bss.js -o mochachino-bdd.js
+
+Make sure that you update the require paths within src/mochachino-bdd.js to point to the respective mocha files if you wish to take this route.
